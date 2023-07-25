@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  sqlserver1:
+    image: mcr.microsoft.com/mssql/server
+    ports:
+      - 1433:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD="P@ssw0rd"
+      - MSSQL_AGENT_ENABLED=true
+    networks:
+      - alwaysOnNetwork
+  sqlserver2:
+    image: mcr.microsoft.com/mssql/server
+    ports:
+      - 1434:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD="P@ssw0rd"
+      - MSSQL_AGENT_ENABLED=true
+    networks:
+      - alwaysOnNetwork
+networks:
+  alwaysOnNetwork:
