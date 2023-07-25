@@ -1,5 +1,6 @@
 {
     "name": "SQL Server",
     "dockerComposeFile": "docker-compose.yml",
-    "service": "sqlserver1"
+    "service": "SQL1",
+    "workspaceFolder": "./temp"
 }
