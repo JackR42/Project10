@@ -2,4 +2,4 @@
     "name": "SQL Server",
     "dockerComposeFile": "docker-compose.yml",
     "service": "sqlserver1"
-  }
+}
