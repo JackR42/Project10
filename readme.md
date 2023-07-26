@@ -1,11 +1,10 @@
 Project 10
 
-==== XXXX
+==== SOLUTION 2
 
-You
+ChatGPT prompt: inside codespace create 2 docker containers SQL1 and SQL2 with sqlserver instances and configure for AlwaysOn availability groups
+ChatGPT response:
 
-inside codespace create 2 docker containers SQL1 and SQL2 with sqlserver instances and configure for AlwaysOn availability groups
-ChatGPT
 To create two Docker containers with SQL Server instances and configure them for AlwaysOn availability groups, you can follow these steps:
 
 Install Docker: If you haven't already, install Docker on your machine. You can download and install Docker Desktop from the official Docker website (https://www.docker.com/products/docker-desktop).
@@ -62,7 +61,7 @@ Make sure to replace [MyAvailabilityGroup] with your desired availability group 
 
 Test the availability group setup: After configuring the availability group, you can test the failover by stopping the primary SQL Server container (SQL1) and observing if the secondary SQL Server container (SQL2) becomes the new primary.
 
-==== XXXX
+==== SOLUTION1
 
 Creating two separate SQL Server instance containers inside Codespaces and configuring AlwaysOn Availability Groups requires some additional steps. Here is a step-by-step guide:
 
