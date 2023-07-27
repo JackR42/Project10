@@ -157,7 +157,6 @@ devcontainer.json
         ]
       }
     }
-  }
 }
 
 ==== MORE
