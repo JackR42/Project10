@@ -140,6 +140,7 @@ Please note that configuring AlwaysOn Availability Groups is more involved and r
 
 I hope this helps you get started with creating multiple SQL Server instance containers and configuring AlwaysOn Availability Groups in your Codespaces environment!
 
+==== CONFIG
 docker-compose up -d
 docker stop $(docker ps -a -q)
 
@@ -157,3 +158,8 @@ devcontainer.json
       }
     }
   }
+}
+
+==== MORE
+https://github.com/rafaelrodrigues3092/docker-mssql-alwayson/tree/main
+https://medium.com/spawn-db/codespaces-with-databases-50fdf3b73d25
