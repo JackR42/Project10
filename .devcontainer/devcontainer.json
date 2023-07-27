@@ -1,0 +1,13 @@
+{
+    "name": "SQL Server",
+    "dockerComposeFile": "docker-compose.yml",
+    "workspaceFolder": "/workspace",
+    "service": "sqlserver1",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-mssql.mssql"
+        ]
+      }
+    }
+}
