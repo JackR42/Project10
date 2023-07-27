@@ -142,3 +142,18 @@ I hope this helps you get started with creating multiple SQL Server instance con
 
 docker-compose up -d
 docker stop $(docker ps -a -q)
+
+devcontainer.json
+{
+    "name": "SQL Server",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "sqlserver1",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-mssql.mssql"
+        ]
+      }
+    }
+  }
