@@ -162,3 +162,5 @@ devcontainer.json
 ==== MORE
 https://github.com/rafaelrodrigues3092/docker-mssql-alwayson/tree/main
 https://medium.com/spawn-db/codespaces-with-databases-50fdf3b73d25
+https://github.com/microsoft/vscode-remote-try-sqlserver/tree/main
+
