@@ -159,6 +159,9 @@ devcontainer.json
     }
 }
 
+https://github.com/microsoft/sql-server-samples/tree/master/samples/containers/replication
+https://github.com/microsoft/sql-server-samples/tree/master
+
 ==== MORE
 https://github.com/rafaelrodrigues3092/docker-mssql-alwayson/tree/main
 https://medium.com/spawn-db/codespaces-with-databases-50fdf3b73d25
