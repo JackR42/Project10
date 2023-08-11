@@ -159,6 +159,11 @@ devcontainer.json
     }
 }
 
+--
+docker exec -t db1 cat /var/opt/mssql/log/errorlog | grep connection
+sudo docker exec -it db1 "bash"
+/opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "<YourNewStrong@Passw0rd>"
+
 https://github.com/microsoft/sql-server-samples/tree/master/samples/containers/replication
 https://github.com/microsoft/sql-server-samples/tree/master
 
